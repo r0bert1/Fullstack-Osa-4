@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/blogs/5c6536af9dcc901774509d71
+Content-Type: application/json
+
+{
+  "title": "test2_updated",
+  "author": "Robert",
+  "url": "dsa",
+  "likes": 0
+}
