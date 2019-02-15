@@ -1,9 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI1YzY2ODNiNGIzM2E4ZTE4YmNjMjhiMTMiLCJpYXQiOjE1NTAyMjM3Nzl9.cskRRrT56dk9VCRqBeC8iRVIqwuUbJAfRnYnLLN-fxc
 
 {
-  "title": "test2",
+  "title": "auth_test2",
   "author": "Robert",
-  "url": "dsa",
-  "likes": 0
+  "url": "asddwe",
+  "userId": "5c6683b4b33a8e18bcc28b13"
 }
